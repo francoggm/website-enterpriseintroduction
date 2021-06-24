@@ -1,0 +1,22 @@
+.sobre {
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+}
+
+.sobre__titulo {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.1875rem;
+    color: #8D0606;
+    margin-bottom: 1.75rem;
+}
+
+.sobre__descricao {
+    font-family: Roboto, cursive;
+    font-weight: 300;
+    font-size: 1.75rem;
+    color: #8C8888;
+    margin-bottom: 5rem;
+}

@@ -1,0 +1,43 @@
+.banner__carrosel {
+    width: 100%;
+    position: relative;
+}
+
+
+.banner__carrosel--img {
+    width: 100%;
+}
+
+.banner__titulo {
+    font-family: Pacifico,cursive;
+    font-size: 5.0625rem;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    top: calc(50% - 76px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 0px #000000BF;
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    .banner__carrosel{
+        display: none;
+    }
+    .banner__titulo {
+        padding-top: 2rem;
+        position: relative;
+        transform: none;
+        left: unset;
+        top: unset;
+        text-shadow: unset;
+        color: #8D0606;
+    }
+    
+}
+@media screen and (max-width:1122px){
+    .banner__titulo{
+        top: 25%;
+    }
+}

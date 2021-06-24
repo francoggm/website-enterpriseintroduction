@@ -1,0 +1,56 @@
+.equipe__texto {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.equipe__titulo {
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+    font-size: 3.1875rem;
+    color: #8D0606;
+}
+
+.equipe__descricao{
+    font-family: Roboto, cursive;
+    font-weight: 300;
+    font-size: 1.75rem;
+    color: #8C8888;
+    padding-bottom: 2rem;
+}
+
+.equipe__geral{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.equipe__membros {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.equipe__membros--img {
+    border-radius: 100%;
+}
+
+.equipe__membros--titulo {
+    padding-top: 0.75rem;
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #8D0606;
+}
+
+.equipe__membros--cargo{
+    font-family: Roboto, cursive;
+    font-weight: 400;
+    font-size: 1.4375rem;
+    text-transform: lowercase;
+    color: #8C8888;
+}
+
+@media screen and (max-width:800px){
+    .equipe__membros--img {
+        width: 90%;
+
+    }
+}

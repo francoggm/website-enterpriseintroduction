@@ -1,0 +1,20 @@
+.contatos{
+    padding: 2rem;
+    background-color: #C4C4C4;
+}
+
+.contatos__lista {
+    display: flex;
+    justify-content: flex-end;
+}
+.contatos__item {
+    margin-right: 5rem;
+    list-style: none;
+}
+
+.contatos__item a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
