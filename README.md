@@ -6,7 +6,7 @@ Tools:
 (FlexBox, Position tricks, Responsive)
 - HTML
 (Semantic, External links)
-- JavaScript
+- JavaScript / jQuery
 (Carousel with slick library - https://kenwheeler.github.io/slick/)
 
 Thank you all! :)
